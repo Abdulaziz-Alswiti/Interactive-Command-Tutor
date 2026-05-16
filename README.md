@@ -62,7 +62,7 @@ No external libraries are required — the tool uses only Python standard librar
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/ITAP/COSC-3411/Eta.git
+git clone [https://github.com/ITAP/COSC-3411/Eta.git](https://github.com/Abdulaziz-Alswiti/Interactive-Command-Tutor.git)
 cd Eta
 ```
 
