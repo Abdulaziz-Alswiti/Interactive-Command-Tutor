@@ -63,7 +63,6 @@ No external libraries are required — the tool uses only Python standard librar
 
 ```bash
 git clone https://github.com/Abdulaziz-Alswiti/Interactive-Command-Tutor.git
-cd Eta
 ```
 
 **2. Confirm Python 3 is installed:**
