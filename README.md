@@ -228,9 +228,9 @@ The **My Scores** screen (option 5) shows your cumulative score across all sessi
 
 ---
 
-## Team
+## Team 
 
 **Eta Team — COSC-3411**  
-King Fahd University of Petroleum and Minerals (KFUPM) | ITAP Program  
+Prince Mohammad Bin Fahad University (PMU) | ITAP Program  
 Instructor: Ibrahim EL Didi  
 Submission deadline: 17 May 2026
