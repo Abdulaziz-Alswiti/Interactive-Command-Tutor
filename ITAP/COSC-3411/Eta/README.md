@@ -62,8 +62,7 @@ No external libraries are required — the tool uses only Python standard librar
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/ITAP/COSC-3411/Eta.git
-cd Eta
+git clone https://github.com/Abdulaziz-Alswiti/Interactive-Command-Tutor.git
 ```
 
 **2. Confirm Python 3 is installed:**
