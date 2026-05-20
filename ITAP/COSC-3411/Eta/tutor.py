@@ -856,7 +856,11 @@ def run_quiz(pool: list, label: str = "") -> None:
         print()
 
         # Accept either a number or typed text
-        raw_answer = prompt("Your answer (1-4 or text): ")
+        raw_answer = prompt("Your answer (1-4 or text, or 'q' to quit): ")
+        if raw_answer.lower() in ("q", "quit", "exit"):
+            print(C.YELLOW + C.BOLD + "\n  ⚠️  Quiz aborted. Returning to menu...\n" + C.RESET)
+            time.sleep(1)
+            return
         if raw_answer.isdigit() and 1 <= int(raw_answer) <= len(shuffled_opts):
             chosen = shuffled_opts[int(raw_answer) - 1]
         else:
@@ -1024,5 +1028,7 @@ def main() -> None:
 
 
 # ── Script entry point ────────────────────────────────────────────
+
 if __name__ == "__main__":
     main()
+
